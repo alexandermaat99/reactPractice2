@@ -1,7 +1,7 @@
 import express, { Request, Response } from "express";
 import mongoose from "mongoose";
 
-import Deck from "./models/deck";
+import Deck from "./models/Deck";
 
 const app = express();
 

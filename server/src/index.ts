@@ -3,6 +3,7 @@ config();
 
 import express, { Request, Response } from "express";
 import mongoose from "mongoose";
+import { json } from "body-parser";
 
 import Deck from "./models/Deck";
 

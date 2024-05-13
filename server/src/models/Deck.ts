@@ -8,5 +8,3 @@ const DeckSchema = new Schema({
 });
 
 const DeckModel = mongoose.model("Deck", DeckSchema);
-
-export default DeckModel;
